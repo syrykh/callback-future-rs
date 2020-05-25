@@ -1,6 +1,6 @@
 # callback-future-rs
 
-A simple adaptor between callbacks and futures.
+A simple adapter between callbacks and futures.
 
 ## Example
 

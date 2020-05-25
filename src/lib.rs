@@ -4,7 +4,7 @@ use std::sync::{Arc, Mutex};
 use futures::Future;
 use futures::task::{Context, Poll};
 
-/// An adaptor between callbacks and futures.
+/// An adapter between callbacks and futures.
 ///
 /// Allows wrapping asynchronous API with callbacks into futures.
 /// Calls loader upon first `Future::poll` call; stores result and wakes upon getting callback.
