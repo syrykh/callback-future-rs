@@ -2,6 +2,8 @@
 
 A simple adapter between callbacks and futures.
 
+Allows wrapping asynchronous API with callbacks into futures.
+
 ## Example
 
 Dependencies:
